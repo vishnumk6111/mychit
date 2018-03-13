@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mychits.createchit"
+    android:background="@drawable/b4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="VectorDrawableCompat"
+            />
+
+        <EditText
+            android:id="@+id/nm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ettotalamount"
+            android:layout_alignStart="@+id/ettotalamount"
+            android:layout_below="@+id/imageButton3"
+            android:layout_marginTop="33dp"
+            android:ems="10"
+            android:hint="NAME"
+            android:textSize="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+
+        <EditText
+            android:id="@+id/ettotalamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nm"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="TOTAL AMOUNT"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+        <EditText
+            android:id="@+id/ettotalduration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ettotalamount"
+            android:layout_alignStart="@+id/ettotalamount"
+            android:layout_below="@+id/ettotalamount"
+            android:ems="10"
+            android:hint="TOTAL DURATION"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+        <EditText
+            android:id="@+id/ettotalperiod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ettotalduration"
+            android:layout_alignStart="@+id/ettotalduration"
+            android:layout_below="@+id/ettotalduration"
+            android:ems="10"
+            android:hint="TOTAL PERIOD"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+        <EditText
+            android:id="@+id/etperiodpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ettotalperiod"
+            android:layout_alignStart="@+id/ettotalperiod"
+            android:layout_below="@+id/ettotalperiod"
+            android:ems="10"
+            android:hint="PERIOD PAYMENT"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+        <EditText
+            android:id="@+id/ettotalmembers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etperiodpayment"
+            android:layout_alignStart="@+id/etperiodpayment"
+            android:layout_below="@+id/etperiodpayment"
+            android:ems="10"
+            android:hint="TOTAL MEMBERS"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:textColorHint="#808080"
+            android:textColor="#f2f2f2"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ettotalmembers"
+            android:layout_alignRight="@+id/ettotalmembers"
+            android:layout_below="@+id/ettotalmembers"
+            android:layout_marginTop="18dp"
+            android:text="SUBMIT" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignLeft="@+id/ettotalmembers"
+            android:layout_alignStart="@+id/ettotalmembers"
+            android:text="CANCEL" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

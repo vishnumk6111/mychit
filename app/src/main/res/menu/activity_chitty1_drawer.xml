@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payment"
+            android:title="PAYMENT"
+            />
+        <item
+            android:id="@+id/members"
+            android:icon="@drawable/members"
+            android:title="MEMBERS" />
+
+        <item
+            android:id="@+id/lottery"
+            android:icon="@drawable/golf"
+            android:title="LOTTERY" />
+        <item
+            android:id="@+id/details"
+            android:icon="@drawable/pay"
+            android:title="PAY DETAILS" />
+
+    </group>
+
+
+
+        </menu>
+
